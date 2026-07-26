@@ -1,10 +1,10 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
+    <meta charset="utf-8"/>
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <title>jyoti kumari-web developer</title>
-    <meta name="description" content="jyoti kumari is a web developer." />
+    <title>Jyoti Kumari — Frontend Developer Portfolio</title>
+    <meta name="description" content="Jyoti Kumari is a frontend developer crafting modern, performant web experiences with clean code and stunning design." />
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&display=swap"
       rel="stylesheet"
@@ -20,8 +20,10 @@
 
         <div class="nav-links" id="nav-links">
           <a class="nav-link" href="#hero">Home</a>
-          <a class="nav-link" href="#projects">Projects</a>
           <a class="nav-link" href="#about">About</a>
+          <a class="nav-link" href="#skills">Skills</a>
+          <a class="nav-link" href="#projects">Projects</a>
+          <a class="nav-link" href="#education">Education</a>
           <a class="nav-link" href="#contact">Contact</a>
         </div>
 
@@ -50,21 +52,23 @@
           </div>
 
           <h1 class="hero__heading">
-            Turning <span class="text-gradient">Ideas</span><br>
-            into Beautiful <br>
-            <span class="text-gradient">websites</span>
+            Inspired by <span class="text-gradient">Creativity</span><br>
+            Powered by<br>
+            <span class="text-gradient">Code.</span>
           </h1>
 
           <p class="hero__sub">
-            Hi, I'm <strong>Jyoti Kumari</strong> — a frontend developer passionate about
-            building fast, beautiful, and accessible web products that users love.
+            Hi, I'm <strong>Jyoti Kumari</strong> —  a passionate Web Developer and BCA student from Nepal. I enjoy building modern, responsive, and user-friendly websites while continuously improving my skills in web development.
           </p>
 
           <div class="hero__tags">
             <span class="tag">HTML &amp; CSS</span>
             <span class="tag">JavaScript</span>
             <span class="tag">UI Design</span>
-            <span class="tag">Performance</span>
+            <span class="tag">php</span>
+            <span class="tag">mysql</span>
+            <span class="tag">figma</span>
+
           </div>
 
           <div class="hero__cta">
@@ -92,21 +96,21 @@
             <img
               alt="Jyoti Kumari Portrait"
               class="hero__portrait-img"
-              src="me.jpeg"
+              src="https://lh3.googleusercontent.com/aida-public/AB6AXuDw5MBxOLIK91SJ127tGpMJAIjGP75OcRdJaf0fytgql_Pd5hGr7ABdYMqSIVTEYd-uIPIaEUbTBiiKLYpd5lEv1PtbWFPnbARldCBFdazkmUqHE8Ks1r3vCSbsUmlFOhEF4_gYPP28DJs48PDjuXjvcQABk9Vj3okcxCckiSF0wjljPJoW7O9U8e-praa0452QN5vy6_Mk7FsrqrAEXOoiFSk7QV5P6TqPfjRug1rlktchAv7kkyag"
             />
             <div class="hero__portrait-badge">
               <span class="material-symbols-outlined">verified</span>
-             web developer
+              Frontend Dev
             </div>
           </div>
 
           <div class="hero__stats">
             <div class="stat-card">
               <span class="stat-number">3+</span>
-              <span class="stat-label">Years Exp.</span>
+              <span class="stat-label">months Exp.</span>
             </div>
             <div class="stat-card">
-              <span class="stat-number">20+</span>
+              <span class="stat-number">5+</span>
               <span class="stat-label">Projects</span>
             </div>
             <div class="stat-card">
@@ -146,6 +150,7 @@
           <!-- Project 1 -->
           <article class="project-card" data-category="web" id="project-taskflow">
             <div class="project-card__img-wrap">
+                <img src="sms_jpeg.jpg" alt="TaskFlow Project Screenshot" class="project-card__img-real" />
               <div class="project-card__img" style="background: linear-gradient(135deg, #1a1a4e 0%, #3b2d8a 100%);">
                 <div class="project-card__mock">
                   <div class="mock-bar">
@@ -175,14 +180,19 @@
                 <span class="tag tag--sm">CSS</span>
                 <span class="tag tag--sm">JavaScript</span>
               </div>
-              <h3 class="project-card__title">TaskFlow Dashboard</h3>
-              <p class="project-card__desc">A Kanban-style task management app with drag-and-drop, local storage persistence, and smooth animations.</p>
+              <h3 class="project-card__title">student management system</h3>
+              <p class="project-card__desc"> Student Management System
+
+A modern and responsive **Student Management System** designed to simplify student record management. 
+
+.</div>
             </div>
           </article>
 
           <!-- Project 2 -->
           <article class="project-card" data-category="ui" id="project-aurora">
             <div class="project-card__img-wrap">
+                <img src="lms.jpg" alt="Aurora Project Screenshot" class="project-card__img-real" />
               <div class="project-card__img" style="background: linear-gradient(135deg, #0f2027 0%, #203a43 50%, #2c5364 100%);">
                 <div class="project-card__mock">
                   <div class="mock-bar">
@@ -199,8 +209,7 @@
                     <div class="mock-grid-2">
                       <div class="mock-card"></div>
                       <div class="mock-card"></div>
-                      <div class="mock-card"></div>
-                      <div class="mock-card"></div>
+                      
                     </div>
                   </div>
                 </div>
@@ -216,14 +225,15 @@
                 <span class="tag tag--sm">CSS</span>
                 <span class="tag tag--sm">Figma</span>
               </div>
-              <h3 class="project-card__title">Aurora Design System</h3>
-              <p class="project-card__desc">A complete design system and component library built with pure CSS custom properties, featuring dark &amp; light modes.</p>
+              <h3 class="project-card__title">Library Management System</h3>
+              <p class="project-card__desc">A Library Management System developed as a DBMS project to efficiently manage books, members, and borrowing records. The system supports CRUD operations, maintains organized data through database normalization, and provides a user-friendly interface for managing library activities. &amp; light modes.</p>
             </div>
           </article>
 
           <!-- Project 3 -->
           <article class="project-card" data-category="tool" id="project-devtools">
             <div class="project-card__img-wrap">
+                <img src="tableau_kk.avif">
               <div class="project-card__img" style="background: linear-gradient(135deg, #0d0d0d 0%, #1a0533 100%);">
                 <div class="project-card__mock project-card__mock--terminal">
                   <div class="mock-bar">
@@ -247,123 +257,13 @@
                 <span class="tag tag--sm">JavaScript</span>
                 <span class="tag tag--sm">Node.js</span>
               </div>
-              <h3 class="project-card__title">DevKit CLI Tool</h3>
-              <p class="project-card__desc">A command-line toolkit for automating common dev workflows — project scaffolding, linting, and deployment scripts.</p>
-            </div>
-          </article>
-
-          <!-- Project 4 -->
-          <article class="project-card" data-category="web" id="project-weather">
-            <div class="project-card__img-wrap">
-              <div class="project-card__img" style="background: linear-gradient(135deg, #1a3a4a 0%, #0f6e8a 100%);">
-                <div class="project-card__mock">
-                  <div class="mock-bar">
-                    <span></span><span></span><span></span>
-                  </div>
-                  <div class="mock-content">
-                    <div class="mock-weather">
-                      <div class="mock-temp">24°</div>
-                      <div class="mock-lines">
-                        <div class="mock-line w-50"></div>
-                        <div class="mock-line w-30"></div>
-                      </div>
-                    </div>
-                    <div class="mock-forecast">
-                      <div class="mock-day"></div>
-                      <div class="mock-day"></div>
-                      <div class="mock-day"></div>
-                      <div class="mock-day"></div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="project-card__overlay">
-                <a href="#" class="project-link" id="link-weather-preview">Preview <span class="material-symbols-outlined">open_in_new</span></a>
-                <a href="#" class="project-link project-link--ghost" id="link-weather-code">Code <span class="material-symbols-outlined">code</span></a>
-              </div>
-            </div>
-            <div class="project-card__body">
-              <div class="project-card__tags">
-                <span class="tag tag--sm">HTML</span>
-                <span class="tag tag--sm">CSS</span>
-                <span class="tag tag--sm">JS API</span>
-              </div>
-              <h3 class="project-card__title">Breeze Weather App</h3>
-              <p class="project-card__desc">A beautiful weather application consuming an open API, with animated weather states and 7-day forecasts.</p>
-            </div>
-          </article>
-
-          <!-- Project 5 -->
-          <article class="project-card" data-category="ui" id="project-ecom">
-            <div class="project-card__img-wrap">
-              <div class="project-card__img" style="background: linear-gradient(135deg, #2d0033 0%, #5a0070 100%);">
-                <div class="project-card__mock">
-                  <div class="mock-bar">
-                    <span></span><span></span><span></span>
-                  </div>
-                  <div class="mock-content">
-                    <div class="mock-grid-3">
-                      <div class="mock-product"></div>
-                      <div class="mock-product"></div>
-                      <div class="mock-product"></div>
-                    </div>
-                    <div class="mock-line w-80 mock-line--cta"></div>
-                  </div>
-                </div>
-              </div>
-              <div class="project-card__overlay">
-                <a href="#" class="project-link" id="link-ecom-preview">Preview <span class="material-symbols-outlined">open_in_new</span></a>
-                <a href="#" class="project-link project-link--ghost" id="link-ecom-code">Code <span class="material-symbols-outlined">code</span></a>
-              </div>
-            </div>
-            <div class="project-card__body">
-              <div class="project-card__tags">
-                <span class="tag tag--sm">HTML</span>
-                <span class="tag tag--sm">CSS</span>
-                <span class="tag tag--sm">JavaScript</span>
-              </div>
-              <h3 class="project-card__title">Luxe Store UI</h3>
-              <p class="project-card__desc">A premium e-commerce landing page with a filterable product grid, cart interactions, and glassmorphism effects.</p>
-            </div>
-          </article>
-
-          <!-- Project 6 -->
-          <article class="project-card" data-category="tool" id="project-converter">
-            <div class="project-card__img-wrap">
-              <div class="project-card__img" style="background: linear-gradient(135deg, #001f10 0%, #004d26 100%);">
-                <div class="project-card__mock">
-                  <div class="mock-bar">
-                    <span></span><span></span><span></span>
-                  </div>
-                  <div class="mock-content mock-content--center">
-                    <div class="mock-converter">
-                      <div class="mock-input-box"></div>
-                      <div class="mock-swap">⇄</div>
-                      <div class="mock-input-box"></div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="project-card__overlay">
-                <a href="#" class="project-link" id="link-converter-preview">Preview <span class="material-symbols-outlined">open_in_new</span></a>
-                <a href="#" class="project-link project-link--ghost" id="link-converter-code">Code <span class="material-symbols-outlined">code</span></a>
-              </div>
-            </div>
-            <div class="project-card__body">
-              <div class="project-card__tags">
-                <span class="tag tag--sm">HTML</span>
-                <span class="tag tag--sm">CSS</span>
-                <span class="tag tag--sm">JavaScript</span>
-              </div>
-              <h3 class="project-card__title">Unit Converter</h3>
-              <p class="project-card__desc">A snappy unit and currency converter with real-time exchange rates, keyboard support, and copy-to-clipboard.</p>
+              <h3 class="project-card__title">Tableau projects</h3>
+              <p class="project-card__desc">Tableau is a popular business intelligence and data visualization software used to turn raw data into interactive charts, graphs, and dashboards. It helps people explore information quickly, spot hidden trends, and make data-driven choices without needing to write code.</p>
             </div>
           </article>
 
         </div>
       </div>
-    </section>
-
     <!-- ============ ABOUT ============ -->
     <section class="section about" id="about">
       <div class="container">
@@ -374,16 +274,13 @@
             <span class="section-label">Who I Am</span>
             <h2 class="section-title">About <span class="text-gradient">Me</span></h2>
             <p class="about__bio">
-              I'm Arin Sunam, a frontend developer based in San Francisco with over 3 years of experience
-              turning ideas into pixel-perfect, high-performance web applications.
+              I'm Jyoti Kumari, a passionate Web Developer and BCA student from Nepal with a strong interest in creating modern, responsive, and user-friendly websites.
             </p>
             <p class="about__bio">
-              I specialize in writing clean, semantic HTML & CSS, and modern vanilla JavaScript — no framework
-              bloat, just fast, accessible experiences. I care deeply about the user's journey and sweat
-              the small details that make a product feel <em>great</em>.
+              I enjoy building clean and interactive web applications using HTML, CSS, JavaScript, and I'm continuously expanding my knowledge in modern web technologies. I focus on writing well-structured code and designing websites that are both visually appealing and easy to <em>USE</em>.
             </p>
             <p class="about__bio">
-              When I'm not coding, you'll find me hiking, sketching UI concepts, or contributing to open-source.
+              When I'm away from the keyboard, I'm usually learning something new, experimenting with fresh ideas, building side projects, or finding inspiration for my next creation. For me, coding isn't just a skill—it's a passion.
             </p>
 
             <div class="about__links">
@@ -397,11 +294,11 @@
             <div class="about__details">
               <div class="detail-item">
                 <span class="material-symbols-outlined">location_on</span>
-                <span>San Francisco, CA</span>
+                <span>Balkot,Bhaktapur</span>
               </div>
               <div class="detail-item">
                 <span class="material-symbols-outlined">mail</span>
-                <span>alex@example.com</span>
+                <span>jthakur2006@gmail.com</span>
               </div>
               <div class="detail-item">
                 <span class="material-symbols-outlined">work</span>
@@ -416,6 +313,7 @@
                   <div class="skill-bar__header">
                     <span class="skill-bar__name">HTML &amp; CSS</span>
                     <span class="skill-bar__pct">95%</span>
+                    
                   </div>
                   <div class="skill-bar__track">
                     <div class="skill-bar__fill" data-width="95"></div>
@@ -516,32 +414,34 @@
     <footer class="footer" id="footer">
       <div class="container footer__inner">
         <div class="footer__brand">
-          <a class="logo" href="#hero">AR.</a>
+          <a class="logo" href="#hero">JK.</a>
           <p class="footer__tagline">Building the web, one pixel at a time.</p>
         </div>
 
         <nav class="footer__nav" aria-label="Footer navigation">
           <a href="#hero" class="footer__link" id="footer-home">Home</a>
-          <a href="#projects" class="footer__link" id="footer-projects">Projects</a>
           <a href="#about" class="footer__link" id="footer-about">About</a>
+          <a href="#skills" class="footer__link" id="footer-skills">Skills</a>
+          <a href="#projects" class="footer__link" id="footer-projects">Projects</a>
+          <a href="#education" class="footer__link" id="footer-education">Education</a>
           <a href="#contact" class="footer__link" id="footer-contact">Contact</a>
         </nav>
 
         <div class="footer__socials">
-          <a href="https://github.com" target="_blank" rel="noopener" aria-label="GitHub" class="social-link" id="footer-github">
+          <a href="https://github.com/404JyotiNotFound" target="_blank" rel="noopener" aria-label="GitHub" class="social-link" id="footer-github">
             <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.387.6.113.82-.258.82-.577v-2.165c-3.338.726-4.042-1.61-4.042-1.61-.546-1.387-1.333-1.756-1.333-1.756-1.09-.745.083-.729.083-.729 1.205.084 1.84 1.237 1.84 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.468-2.38 1.235-3.22-.123-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.3 1.23a11.5 11.5 0 0 1 3-.404c1.02.005 2.045.138 3 .404 2.29-1.552 3.297-1.23 3.297-1.23.653 1.652.242 2.873.12 3.176.77.84 1.232 1.91 1.232 3.22 0 4.61-2.807 5.625-5.48 5.92.43.372.823 1.102.823 2.222v3.293c0 .322.218.694.825.576C20.565 21.796 24 17.298 24 12c0-6.63-5.37-12-12-12z"/></svg>
           </a>
-          <a href="https://linkedin.com" target="_blank" rel="noopener" aria-label="LinkedIn" class="social-link" id="footer-linkedin">
+          <a href="https://www.linkedin.com/in/jyoti-kumari-573714316" target="_blank" rel="noopener" aria-label="LinkedIn" class="social-link" id="footer-linkedin">
             <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
           </a>
-          <a href="https://twitter.com" target="_blank" rel="noopener" aria-label="Twitter/X" class="social-link" id="footer-twitter">
+          <a href="https://x.com/zythakur" target="_blank" rel="noopener" aria-label="Twitter/X" class="social-link" id="footer-twitter">
             <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.737-8.835L1.254 2.25H8.08l4.26 5.632L18.245 2.25zm-1.161 17.52h1.833L7.084 4.126H5.117L17.083 19.77z"/></svg>
           </a>
         </div>
       </div>
 
       <div class="footer__bottom">
-        <p>&copy; <span id="footer-year"></span> Arin Sunam. Crafted with <span class="heart">♥</span> using HTML, CSS &amp; JS.</p>
+        <p>&copy; <span id="footer-year"></span> Jyoti Kumari. Crafted with <span class="heart">♥</span> using HTML, CSS &amp; JS.</p>
       </div>
     </footer>
 
