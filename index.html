@@ -77,13 +77,13 @@
           </div>
 
           <div class="hero__socials">
-            <a href="https://github.com" target="_blank" rel="noopener" aria-label="GitHub" class="social-link" id="link-github">
+            <a href="https://github.com/404JyotiNotFound" target="_blank" rel="noopener" aria-label="GitHub" class="social-link" id="link-github">
               <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.387.6.113.82-.258.82-.577v-2.165c-3.338.726-4.042-1.61-4.042-1.61-.546-1.387-1.333-1.756-1.333-1.756-1.09-.745.083-.729.083-.729 1.205.084 1.84 1.237 1.84 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.468-2.38 1.235-3.22-.123-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.3 1.23a11.5 11.5 0 0 1 3-.404c1.02.005 2.045.138 3 .404 2.29-1.552 3.297-1.23 3.297-1.23.653 1.652.242 2.873.12 3.176.77.84 1.232 1.91 1.232 3.22 0 4.61-2.807 5.625-5.48 5.92.43.372.823 1.102.823 2.222v3.293c0 .322.218.694.825.576C20.565 21.796 24 17.298 24 12c0-6.63-5.37-12-12-12z"/></svg>
             </a>
-            <a href="https://linkedin.com" target="_blank" rel="noopener" aria-label="LinkedIn" class="social-link" id="link-linkedin">
+            <a href="https://www.linkedin.com/in/jyoti-kumari-573714316" target="_blank" rel="noopener" aria-label="LinkedIn" class="social-link" id="link-linkedin">
               <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
             </a>
-            <a href="https://twitter.com" target="_blank" rel="noopener" aria-label="Twitter/X" class="social-link" id="link-twitter">
+            <a href="https://x.com/zythakur" target="_blank" rel="noopener" aria-label="Twitter/X" class="social-link" id="link-twitter">
               <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.737-8.835L1.254 2.25H8.08l4.26 5.632L18.245 2.25zm-1.161 17.52h1.833L7.084 4.126H5.117L17.083 19.77z"/></svg>
             </a>
           </div>
@@ -129,141 +129,124 @@
       </div>
     </section>
 
-    <!-- ============ PROJECTS ============ -->
-    <section class="section projects" id="projects">
-      <div class="container">
-        <div class="section-header">
-          <span class="section-label">My Work</span>
-          <h2 class="section-title">Featured <span class="text-gradient">Projects</span></h2>
-          <p class="section-desc">A selection of projects I've built — from interactive UIs to full web experiences.</p>
+   <!-- ============ PROJECTS ============ -->
+<section class="section projects" id="projects">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-label">My Work</span>
+      <h2 class="section-title">
+        Featured <span class="text-gradient">Projects</span>
+      </h2>
+      <p class="section-desc">
+        A selection of projects I have built using web technologies and data tools.
+      </p>
+    </div>
+
+    <div class="projects__grid" id="projects-grid">
+
+      <!-- Student Management System -->
+      <article class="project-card" data-category="web">
+        <div class="project-card__img-wrap">
+          <img
+            src="sms_jpeg.jpg"
+            alt="Student Management System"
+            class="project-card__img-real"
+          >
         </div>
 
-        <div class="projects__filters" id="projects-filters">
-          <button class="filter-btn filter-btn--active" data-filter="all" id="filter-all">All</button>
-          <button class="filter-btn" data-filter="web" id="filter-web">Web Apps</button>
-          <button class="filter-btn" data-filter="ui" id="filter-ui">UI Design</button>
-          <button class="filter-btn" data-filter="tool" id="filter-tool">Tools</button>
+        <div class="project-card__body">
+          <div class="project-card__tags">
+            <span class="tag tag--sm">HTML</span>
+            <span class="tag tag--sm">CSS</span>
+            <span class="tag tag--sm">JavaScript</span>
+          </div>
+
+          <h3 class="project-card__title">Student Management System</h3>
+          <p class="project-card__desc">
+            A modern and responsive system for managing student details,
+            records, and information in one place.
+          </p>
+        </div>
+      </article>
+
+      <!-- Library Management System -->
+      <article class="project-card" data-category="web">
+        <div class="project-card__img-wrap">
+          <img
+            src="lms.jpg"
+            alt="Library Management System"
+            class="project-card__img-real"
+          >
         </div>
 
-        <div class="projects__grid" id="projects-grid">
+        <div class="project-card__body">
+          <div class="project-card__tags">
+            <span class="tag tag--sm">HTML</span>
+            <span class="tag tag--sm">CSS</span>
+            <span class="tag tag--sm">JavaScript</span>
+          </div>
 
-          <!-- Project 1 -->
-          <article class="project-card" data-category="web" id="project-taskflow">
-            <div class="project-card__img-wrap">
-                <img src="sms_jpeg.jpg" alt="TaskFlow Project Screenshot" class="project-card__img-real" />
-              <div class="project-card__img" style="background: linear-gradient(135deg, #1a1a4e 0%, #3b2d8a 100%);">
-                <div class="project-card__mock">
-                  <div class="mock-bar">
-                    <span></span><span></span><span></span>
-                  </div>
-                  <div class="mock-content">
-                    <div class="mock-sidebar">
-                      <div class="mock-item active"></div>
-                      <div class="mock-item"></div>
-                      <div class="mock-item"></div>
-                    </div>
-                    <div class="mock-main">
-                      <div class="mock-card"></div>
-                      <div class="mock-card"></div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="project-card__overlay">
-                <a href="#" class="project-link" id="link-taskflow-preview">Preview <span class="material-symbols-outlined">open_in_new</span></a>
-                <a href="#" class="project-link project-link--ghost" id="link-taskflow-code">Code <span class="material-symbols-outlined">code</span></a>
-              </div>
-            </div>
-            <div class="project-card__body">
-              <div class="project-card__tags">
-                <span class="tag tag--sm">HTML</span>
-                <span class="tag tag--sm">CSS</span>
-                <span class="tag tag--sm">JavaScript</span>
-              </div>
-              <h3 class="project-card__title">student management system</h3>
-              <p class="project-card__desc"> Student Management System
-
-A modern and responsive **Student Management System** designed to simplify student record management. 
-
-.</div>
-            </div>
-          </article>
-
-          <!-- Project 2 -->
-          <article class="project-card" data-category="ui" id="project-aurora">
-            <div class="project-card__img-wrap">
-                <img src="lms.jpg" alt="Aurora Project Screenshot" class="project-card__img-real" />
-              <div class="project-card__img" style="background: linear-gradient(135deg, #0f2027 0%, #203a43 50%, #2c5364 100%);">
-                <div class="project-card__mock">
-                  <div class="mock-bar">
-                    <span></span><span></span><span></span>
-                  </div>
-                  <div class="mock-content">
-                    <div class="mock-hero-strip">
-                      <div class="mock-circle"></div>
-                      <div class="mock-lines">
-                        <div class="mock-line w-60"></div>
-                        <div class="mock-line w-40"></div>
-                      </div>
-                    </div>
-                    <div class="mock-grid-2">
-                      <div class="mock-card"></div>
-                      <div class="mock-card"></div>
-                      
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="project-card__overlay">
-                <a href="#" class="project-link" id="link-aurora-preview">Preview <span class="material-symbols-outlined">open_in_new</span></a>
-                <a href="#" class="project-link project-link--ghost" id="link-aurora-code">Code <span class="material-symbols-outlined">code</span></a>
-              </div>
-            </div>
-            <div class="project-card__body">
-              <div class="project-card__tags">
-                <span class="tag tag--sm">HTML</span>
-                <span class="tag tag--sm">CSS</span>
-                <span class="tag tag--sm">Figma</span>
-              </div>
-              <h3 class="project-card__title">Library Management System</h3>
-              <p class="project-card__desc">A Library Management System developed as a DBMS project to efficiently manage books, members, and borrowing records. The system supports CRUD operations, maintains organized data through database normalization, and provides a user-friendly interface for managing library activities. &amp; light modes.</p>
-            </div>
-          </article>
-
-          <!-- Project 3 -->
-          <article class="project-card" data-category="tool" id="project-devtools">
-            <div class="project-card__img-wrap">
-                <img src="tableau_kk.avif">
-              <div class="project-card__img" style="background: linear-gradient(135deg, #0d0d0d 0%, #1a0533 100%);">
-                <div class="project-card__mock project-card__mock--terminal">
-                  <div class="mock-bar">
-                    <span class="dot-red"></span><span class="dot-yellow"></span><span class="dot-green"></span>
-                  </div>
-                  <div class="mock-terminal">
-                    <p class="term-line"><span class="term-prompt">$</span> npm run build</p>
-                    <p class="term-line term-success">✓ Built in 342ms</p>
-                    <p class="term-line"><span class="term-prompt">$</span> npm run deploy</p>
-                    <p class="term-line term-blink">▌</p>
-                  </div>
-                </div>
-              </div>
-              <div class="project-card__overlay">
-                <a href="#" class="project-link" id="link-devtools-preview">Preview <span class="material-symbols-outlined">open_in_new</span></a>
-                <a href="#" class="project-link project-link--ghost" id="link-devtools-code">Code <span class="material-symbols-outlined">code</span></a>
-              </div>
-            </div>
-            <div class="project-card__body">
-              <div class="project-card__tags">
-                <span class="tag tag--sm">JavaScript</span>
-                <span class="tag tag--sm">Node.js</span>
-              </div>
-              <h3 class="project-card__title">Tableau projects</h3>
-              <p class="project-card__desc">Tableau is a popular business intelligence and data visualization software used to turn raw data into interactive charts, graphs, and dashboards. It helps people explore information quickly, spot hidden trends, and make data-driven choices without needing to write code.</p>
-            </div>
-          </article>
-
+          <h3 class="project-card__title">Library Management System</h3>
+          <p class="project-card__desc">
+            A DBMS project for managing books, members, borrowing records,
+            and library activities efficiently.
+          </p>
         </div>
-      </div>
+      </article>
+
+      <!-- Tableau Project -->
+      <article class="project-card" data-category="tool">
+        <div class="project-card__img-wrap">
+          <img
+            src="tableau_kk.avif"
+            alt="Tableau Dashboard"
+            class="project-card__img-real"
+          >
+        </div>
+
+        <div class="project-card__body">
+          <div class="project-card__tags">
+            <span class="tag tag--sm">Tableau</span>
+          </div>
+
+          <h3 class="project-card__title">Tableau Projects</h3>
+          <p class="project-card__desc">
+            Interactive dashboards and visualizations that make data easier
+            to explore, understand, and use for decisions.
+          </p>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+    
+      <!-- ==========Education========= -->
+   </section> <!-- End of Projects -->
+
+<section id="education" class="education-section">
+  <h2 class="section-title">
+  Educational <span class="text-gradient">Background</span>
+</h2>
+ 
+
+  <div class="education-item">
+    <h3>Bachelor of Computer Application (BCA)</h3>
+    <p class="school">Universal College</p>
+    <p class="date">2024 – Present</p>
+    <p>
+      Relevant coursework: Web Development, Data Structures, Database Systems,
+      Software Engineering, and Artificial Intelligence.
+    </p>
+  </div>
+
+  <div class="education-item">
+    <h3>Higher Secondary Education</h3>
+    <p class="school">Janapremi World School</p>
+    <p class="date">2021 – 2024</p>
+    <p>Major: Management</p>
+  </div>
+</section>
     <!-- ============ ABOUT ============ -->
     <section class="section about" id="about">
       <div class="container">
@@ -374,6 +357,47 @@ A modern and responsive **Student Management System** designed to simplify stude
         </div>
       </div>
     </section>
+
+    <!-- ========skills===== -->
+     <section class="section skills-section" id="skills">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-label">What I Know</span>
+      <h2 class="section-title">
+        My <span class="text-gradient">Skills</span>
+      </h2>
+      <p class="section-desc">
+        Technologies and tools I use to create modern web experiences.
+      </p>
+    </div>
+
+    <div class="skills-grid">
+      <div class="skill-card">
+        <span class="skill-icon">🌐</span>
+        <h3>Frontend Development</h3>
+        <p>HTML, CSS, JavaScript, responsive layouts, and animations.</p>
+      </div>
+
+      <div class="skill-card">
+        <span class="skill-icon">⚙️</span>
+        <h3>Backend Basics</h3>
+        <p>PHP, MySQL, database design, and CRUD operations.</p>
+      </div>
+
+      <div class="skill-card">
+        <span class="skill-icon">🎨</span>
+        <h3>UI / UX Design</h3>
+        <p>Figma, clean interfaces, user-friendly layouts, and design ideas.</p>
+      </div>
+
+      <div class="skill-card">
+        <span class="skill-icon">📊</span>
+        <h3>Data Visualization</h3>
+        <p>Tableau dashboards, charts, and clear data presentation.</p>
+      </div>
+    </div>
+  </div>
+</section>
 
     <!-- ============ CONTACT (minimal) ============ -->
     <section class="section contact" id="contact">

@@ -17,6 +17,8 @@ document.querySelectorAll("section").forEach((section) => {
   observer.observe(section);
 });
 
+
+
 // Form Submission Interaction
 document.querySelector(".contact-form").addEventListener("submit", (e) => {
   e.preventDefault();
