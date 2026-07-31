@@ -410,6 +410,27 @@ radial-gradient(circle at bottom left,#4ade8015,transparent 40%),
 #07070a;
 }
 
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.container, section, main, footer {
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box; /* Ensures padding doesn't add to total width */
+}
+input, textarea {
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+.footer-nav, nav {
+  display: flex;
+  flex-wrap: wrap; /* Allows items to wrap onto the next line on mobile */
+  justify-content: center;
+  gap: 1rem;
+}
 .cursor-glow {
     position: fixed;
     width: 300px;

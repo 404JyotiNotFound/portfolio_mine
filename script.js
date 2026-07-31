@@ -36,6 +36,11 @@ document.body.style.setProperty("--x",e.clientX+"px");
 document.body.style.setProperty("--y",e.clientY+"px");
 });
 
+document.querySelectorAll('*').forEach(el => {
+  if (el.offsetWidth > document.documentElement.clientWidth) {
+    console.log(el);
+  }
+});
   setTimeout(() => {
     btn.textContent = "Message Sent!";
     btn.classList.add("btn-submit--success");
