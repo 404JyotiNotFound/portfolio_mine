@@ -5,6 +5,8 @@ const observerOptions = {
   threshold: 0.1,
 };
 
+
+
 const observer = new IntersectionObserver((entries) => {
   entries.forEach((entry) => {
     if (entry.isIntersecting) {
@@ -17,7 +19,10 @@ document.querySelectorAll("section").forEach((section) => {
   observer.observe(section);
 });
 
-
+document.addEventListener("mousemove",(e)=>{
+document.body.style.setProperty("--x",e.clientX+"px");
+document.body.style.setProperty("--y",e.clientY+"px");
+});
 
 // Form Submission Interaction
 document.querySelector(".contact-form").addEventListener("submit", (e) => {
@@ -25,6 +30,11 @@ document.querySelector(".contact-form").addEventListener("submit", (e) => {
   const btn = e.target.querySelector(".btn-submit");
   btn.textContent = "Sending...";
   btn.disabled = true;
+
+  document.addEventListener("mousemove",(e)=>{
+document.body.style.setProperty("--x",e.clientX+"px");
+document.body.style.setProperty("--y",e.clientY+"px");
+});
 
   setTimeout(() => {
     btn.textContent = "Message Sent!";

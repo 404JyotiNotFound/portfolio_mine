@@ -3,6 +3,40 @@
 /* =========================================
    DESIGN TOKENS — DARK DEV AESTHETIC
    ========================================= */
+
+   .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+} 
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+
+    .navbar {
+        flex-direction: column;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero img {
+        width: 250px;
+    }
+
+    .skills {
+        grid-template-columns: 1fr;
+    }
+
+    .projects {
+        grid-template-columns: 1fr;
+    }
+}
 :root {
   --color-bg: #07070a;
   --color-bg-alt: #0b0b10;
@@ -330,7 +364,7 @@ body::before {
   min-height: 100vh;
   display: flex;
   align-items: center;
-  padding-top: 64px;
+  padding-top: 40px;
   overflow: hidden;
   opacity: 1 !important;
   transform: none !important;
@@ -345,6 +379,74 @@ body::before {
   background-size: 48px 48px;
   mask-image: radial-gradient(ellipse at center, black 20%, transparent 75%);
   -webkit-mask-image: radial-gradient(ellipse at center, black 20%, transparent 75%);
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;      /* Reduce if it's 60px+ */
+}
+
+.hero-buttons {
+    margin-top: 20px;
+}
+
+.cursor-glow{
+position:fixed;
+width:300px;
+height:300px;
+background:radial-gradient(circle,
+rgba(74,222,128,.12),
+transparent 70%);
+pointer-events:none;
+transform:translate(-50%,-50%);
+z-index:0;
+}
+
+body{
+background:
+radial-gradient(circle at top right,#22d3ee11,transparent 35%),
+radial-gradient(circle at bottom left,#4ade8015,transparent 40%),
+#07070a;
+}
+
+.cursor-glow {
+    position: fixed;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    pointer-events: none;
+    background: radial-gradient(
+        circle,
+        rgba(0, 255, 136, 0.25) 0%,
+        rgba(0, 255, 136, 0.12) 35%,
+        rgba(0, 255, 136, 0.05) 60%,
+        transparent 75%
+    );
+    filter: blur(40px);
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    transition: transform 0.08s linear;
+}
+
+.typing{
+overflow:hidden;
+white-space:nowrap;
+border-right:2px solid #4ade80;
+animation:
+typing 3s steps(25),
+blink .8s infinite;
+}
+
+@keyframes typing{
+from{width:0;}
+to{width:100%;}
+}
+
+@keyframes blink{
+50%{
+border-color:transparent;
+}
 }
 
 .hero__orb {
